@@ -1,19 +1,24 @@
-# :earth_americas: GDP dashboard template
+# 📐 Riemann Sum Practice Studio
 
-A simple Streamlit app showing the GDP of different countries in the world.
+An interactive Streamlit app for practicing upper and lower sums, trapezoidal estimates, and midpoint rules with preset examples, a custom sandbox, and randomized drills.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+### How to run locally
 
-### How to run it on your own machine
+1. Install dependencies
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
    ```
 
-2. Run the app
+2. Start the app
 
+   ```bash
+   streamlit run streamlit_app.py
    ```
-   $ streamlit run streamlit_app.py
-   ```
+
+3. Open the provided local URL (usually http://localhost:8501) in your browser to see the website.
+
+### What you can do
+- Browse ready-to-use practice cards for common functions and intervals.
+- Build custom problems by choosing a function, interval `[a,b]`, and subinterval count `n`.
+- Generate repeatable random drills with an optional seed to compare your hand calculations against computed upper/lower sums, trapezoids, and midpoint approximations.
